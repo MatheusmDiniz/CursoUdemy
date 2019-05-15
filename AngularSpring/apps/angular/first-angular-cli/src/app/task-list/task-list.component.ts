@@ -9,7 +9,7 @@ export class TaskListComponent {
   
   tasks = [];
   task = '';
-  isAdmin = false;
+  isAdmin = true;
   add(): void{
     this.tasks.push(this.task);
   }
